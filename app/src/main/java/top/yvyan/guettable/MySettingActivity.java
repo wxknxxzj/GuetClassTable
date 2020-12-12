@@ -17,10 +17,6 @@ public class MySettingActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_my_setting);
         setContentView(R.layout.setting);
-        ImageView back= (ImageView) findViewById(R.id.setting_back);
-        back.setOnClickListener(view -> {
-            finish();
-        });
         setTheme(R.style.ThemeText);
         SettingFragment settingFragment = new SettingFragment();
         getFragmentManager().beginTransaction()
