@@ -35,6 +35,7 @@ public class ExperimentScoreActivity extends AppCompatActivity implements IMoreF
     private GeneralData generalData;
     private SingleSettingData singleSettingData;
 
+
     @BindView(R.id.experimentscore_state) TextView experimentScoreState;
     @BindView(R.id.experimentscore_not_find) TextView experimentScoreNotFind;
     @BindView(R.id.experiment_score_more) ImageView experimentScoreMore;
